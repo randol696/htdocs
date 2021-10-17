@@ -1,0 +1,47 @@
+
+
+This is a simple inventory control application, 
+mainly made to help students with the MVC architecture.
+
+This application do not intend to be a profissional one.
+But, if you agree with the open source license, 
+you can use for your work with no problem. 
+Consider keeping the credits to me!
+
+This application has only been tested locally, in my own machine.
+Tested with Xampp in Windows and Ubuntu Linux.
+
+
+HOW TO INSTALL
+==============================
+
+1. Create a Database with the file 'sistemateste.sql';
+2. Uploade this application to your web folder;
+3. Change the URL for this system in 'application/config/config.php'
+    $config['base_url'] = 'http://your-url';
+    -It should be made in almost all cases;
+    -Without '/' at the end;
+    -Changing to '' do not works in my Ubuntu.
+4. Set the database settings in 'application/config/database.php'
+5. Ready, try accessing 'http://your-url'
+
+PASSWORDS:
+User: admin, pass: admin
+User: user, pass: user
+
+
+CONTACT
+=======
+
+Leandro Israel Pinto
+www.leandroip.com
+
+
+
+CHANGELOG
+=========
+
+Version 1.0:
+    - First working!
+
+
